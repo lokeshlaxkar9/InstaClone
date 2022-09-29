@@ -1,0 +1,45 @@
+.PostContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fb;
+}
+
+.PostContainer-header {
+    align-self: stretch;
+    margin-bottom: 2em;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    position: sticky;
+    top: 0px
+}
+
+
+.logo {
+    font-size: 3em;
+    margin-left: 2em;
+    color: #ef233c;
+    /* color: black; */
+}
+
+#instagram {
+    text-decoration: none;
+    font-size: 2em;
+    margin: 0 0.5em;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    bottom: 5px;
+}
+
+.cam {
+    font-size: 2.5em;
+    margin-right: 3em;
+    color: #ef233c;
+}

@@ -1,0 +1,43 @@
+.form {
+    width: 50%;
+    margin: 5em auto;
+    border: 1px solid lightgrey;
+    padding: 1em;
+}
+
+.form-image {
+    width: 98%;
+    padding: 0.3em;
+}
+
+.form-name {
+    padding: 0.3em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form-name input {
+    width: 40%;
+    padding: 0.3em;
+}
+
+.form-image input {
+    width: 100%;
+    padding: 0.3em;
+}
+
+.form-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#form-btn {
+    margin-top: 1em;
+}
+
+#form-heading {
+    width: fit-content;
+    margin: auto;
+}
